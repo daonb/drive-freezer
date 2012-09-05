@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body dir="rtl">
+  <h1>Drive Freezer Demo</h1>
+  <div style="margin:1em;float:right;width:30%">
+  {{#tree}}
+    <h3>{{title}}</h3>
+    {{#children}}
+       <h4><a href="{{url}}">{{title}}</a> (<a href="{{source_url}}">source</a>)</h4>
+    {{/children}}
+  {{/tree}}
+  </div>
+  <div style="float:right;">
+  </div>
+  </html>
+</body>
+</html>
+
+
